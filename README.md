@@ -1,6 +1,4 @@
 # Data_Structures
-Implementation of avl tree in python, TAU University, 3th semester
+Implementation of an AVL Tree in Python, developed as part of my studies at TAU University during my 3rd semester.
 
-I developed an AVL Tree, a self-balancing binary search tree, meeting the criteria where each node's subtrees have a maximum height difference of one.
-This structure enables efficient operations (lookup, insertion, deletion) in O(log n) time, regardless of the tree's size.
-Insertions and deletions may trigger rebalancing using tree rotations.
+The AVL Tree is a self-balancing binary search tree, ensuring that the height difference between the left and right subtrees of each node is at most one. This structure allows for efficient operations (lookup, insertion, deletion) with a time complexity of O(log n), regardless of the tree size. Insertions and deletions may trigger tree rotations to maintain balance.
